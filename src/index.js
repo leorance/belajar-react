@@ -3,15 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
-const HelloWorld = () => {
-  return <h1>Hello world!</h1>;
-};
+import HelloComponent from "./component/HelloComponent";
+import StatefulComponent from "./container/StatefulComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HelloWorld />
+    <HelloComponent />
   </React.StrictMode>
 );
 
